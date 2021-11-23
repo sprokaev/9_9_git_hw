@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class SecondTest {
 
     @Test
-    void shouldPass() {
+    void firstTest() {
         Assertions.assertTrue(true);
     }
 
