@@ -15,4 +15,9 @@ class SecondTest {
         Assertions.assertTrue(true);
     }
 
+    @Test
+    void thirdTest() {
+        Assertions.assertTrue(true);
+    }
+
 }
