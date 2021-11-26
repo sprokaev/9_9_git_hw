@@ -10,8 +10,16 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation(
+            "com.codeborne:selenide:5.25.0",
+            "org.junit.jupiter:junit-jupiter:5.8.0",
+            'io.qameta.allure:allure-selenide:2.14.0',
+            'org.assertj:assertj-core:3.21.0',
+            'commons-io:commons-io:2.11.0',
+            'org.slf4j:slf4j-simple:1.7.32',
+            'com.github.javafaker:javafaker:1.0.2',
+            "org.aeonbits.owner:owner:1.0.12",
+    )
 }
 
 test {
